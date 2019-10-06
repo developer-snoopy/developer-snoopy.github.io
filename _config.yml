@@ -37,20 +37,20 @@ disqus_shortname:   Filbert_Kwon
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              kdj9502@naver.com 
+#twitter:           username
+facebook:           https://www.facebook.com/kdj9502
+github-url:         https://github.com/developer-snoopy
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:           https://www.linkedin.com/in/dongjae-kwon-51963a117/
 #xing:              username
-instagram:          username
+instagram:          https://www.instagram.com/dong_jae95/
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:             username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
