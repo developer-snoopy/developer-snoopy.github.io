@@ -25,11 +25,11 @@ comments: false
 ## Research Experience
 <pre>
 * <b>Research Intern</b> / Jun ~ Aug 2017 (2 Month)
-  Center of Space Optics, Korea Research Institute of Standards and Science (KRISS)
+  Center of Space Optics, Korea Research Institute of Standards and Science(KRISS)
   - Development of Ferro-fluid Deformable Mirror for Adaptive Optics
 
 * <b>Research Intern</b> / Jan 2018 (3 Week)
-  Ultrafast Nonlinear Optics Laboratory, Advanced Photonics Research Institute (APRI), <b>GIST</b>
+  Ultrafast Nonlinear Optics Laboratory, Advanced Photonics Research Institute(APRI), <b>GIST</b>
   - Understood basic theories about Nonlinear Optics and Support experiment
 
 * <b>Research Intern</b> / Jan ~ Feb 2018 (3 Week)
