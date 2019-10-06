@@ -16,8 +16,10 @@ comments: false
 </pre>
 
 ## Education
-* Bachelor degree / Optical Engineering at Kumoh National Institute of Technology
-* Master Candidate / Information and Communication Engineering at DGIST(Daegu Gyeongbuk Institute of Technology)
+<pre>
+* Bachelor degree / Kumoh National Institute of Technology, Optical Engineering
+* Master Candidate / Information and Communication Engineering, DGIST
+</pre>
 
 ## Preview
 
