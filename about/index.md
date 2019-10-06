@@ -11,7 +11,7 @@ comments: false
 ## Affilated Group
 <pre>
 * Graduate student(Master Candidate) in DGIST Information and Communication Engineering
-Advanced Electronic Devices Research Group(AEDRG) - KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
+  Advanced Electronic Devices Research Group(AEDRG) - KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
 * Electronic Control Researcher in UEL(Unmanned Exploration Laboratory which is located in Busan, KOREA)
 </pre>
 
