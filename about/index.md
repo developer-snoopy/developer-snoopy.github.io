@@ -8,7 +8,7 @@ comments: false
     
 <center>This is a <a href="http://developer-snoopy.github.io/"><b>Resume</b></a>. You can look around about me.</center>
 
-## Affilated Group
+## Affila
 <pre>
 * <b>DGIST Information and Communication Engineering</b>
   Advanced Electronic Devices Research Group(AEDRG)
