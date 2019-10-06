@@ -18,8 +18,8 @@ comments: false
 
 ## Education
 <pre>
-* Bachelor degree / Kumoh National Institute of Technology, Optical Engineering
-* Master Candidate / Information and Communication Engineering, DGIST
+* <b>Bachelor degree</b> / Kumoh National Institute of Technology, Optical Engineering
+* <b>Master Candidate</b> / Information and Communication Engineering, DGIST
 </pre>
 
 ## Preview
