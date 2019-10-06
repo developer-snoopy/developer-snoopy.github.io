@@ -9,13 +9,15 @@ comments: false
 <center>This is a <a href="http://developer-snoopy.github.io/"><b>Resume</b></a>. You can look around about me.</center>
 
 ## Affilated Group
+<pre>
 * Graduate student(Master Candidate) in DGIST Information and Communication Engineering
-  Advanced Electronic Devices Research Group(AEDRG) - KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
+Advanced Electronic Devices Research Group(AEDRG) - KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
 * Electronic Control Researcher in UEL(Unmanned Exploration Laboratory which is located in Busan, KOREA)
+</pre>
 
 ## Education
-* Bachelor degree | Optical Engineering at Kumoh National Institute of Technology
-* Master Candidate  | Information and Communication Engineering at DGIST(Daegu Gyeongbuk Institute of Technology)
+* Bachelor degree / Optical Engineering at Kumoh National Institute of Technology
+* Master Candidate / Information and Communication Engineering at DGIST(Daegu Gyeongbuk Institute of Technology)
 
 ## Preview
 
