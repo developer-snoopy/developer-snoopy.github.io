@@ -10,10 +10,10 @@ comments: false
 
 ## Affilated Group
 <pre>
-* <bold>DGIST Information and Communication Engineering</bold>
+* <b>DGIST Information and Communication Engineering</b>
   Advanced Electronic Devices Research Group(AEDRG)
   KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
-* Researcher in <bold>UEL</bold>(Unmanned Exploration Laboratory which is located in Busan, KOREA)
+* Researcher in <b>UEL</b>(Unmanned Exploration Laboratory which is located in Busan, KOREA)
 </pre>
 
 ## Education
