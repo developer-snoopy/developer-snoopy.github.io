@@ -6,19 +6,16 @@ date: 2019-10-05
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>This is a <a href="http://developer-snoopy.github.io/"><b>Resume</b></a>. You can look around about me.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Affilated Group
+* Graduate student(Master Candidate) in DGIST Information and Communication Engineering
+  Advanced Electronic Devices Research Group(AEDRG) - KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
+* Electronic Control Researcher in UEL(Unmanned Exploration Laboratory which is located in Busan, KOREA)
+
+## Education
+* Bachelor degree | Optical Engineering at Kumoh National Institute of Technology
+* Master Candidate  | Information and Communication Engineering at DGIST(Daegu Gyeongbuk Institute of Technology)
 
 ## Preview
 
