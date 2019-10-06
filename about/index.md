@@ -13,7 +13,7 @@ comments: false
 * <b>DGIST Information and Communication Engineering</b>
   Advanced Electronic Devices Research Group(AEDRG)
   KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
-* Researcher in <b>UEL</b>(Unmanned Exploration Laboratory which is located in Busan, KOREA)
+* Researcher in <b>UEL</b>(Unmanned Exploration Laboratory)
 </pre>
 
 ## Education
