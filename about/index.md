@@ -15,12 +15,16 @@ comments: false
   KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
 * Researcher in <b>UEL</b>(Unmanned Exploration Laboratory)
 </pre>
+<hr>
+
 
 ## Education
 <pre>
 * <b>Bachelor degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
 * <b>Master Candidate</b> / Information and Communication Engineering, DGIST (~ing)
 </pre>
+<hr>
+
 
 ## Research Experience
 <pre>
