@@ -29,15 +29,15 @@ comments: false
   - Development of Ferro-fluid Deformable Mirror for Adaptive Optics
 
 * <b>Research Intern</b> / Jan 2018 (3 Week)
-  Ultrafast Nonlinear Optics Laboratory, Advanced Photonics Research Institute (APRI), <b><HTML G style="color:red;"></b><b>IST</b>
+  Ultrafast Nonlinear Optics Laboratory, Advanced Photonics Research Institute (APRI), <b>GIST</b>
   - Understood basic theories about Nonlinear Optics and Support experiment
 
 * <b>Research Intern</b> / Jan ~ Feb 2018 (3 Week)
-  Human-Centered Intelligent System Laboratory, Institute of Integrated Technology(IIT), <b><HTML G style="color:red;"></b><b>IST</b>
+  Human-Centered Intelligent System Laboratory, Institute of Integrated Technology(IIT), <b>GIST</b>
   - Followed up leading research group about HCI(Human Computer Interaction)
 
 * <b>Research Intern</b> / Jul ~ Aug 2018 (6 Week)
-  Human-Centered Intelligent System Laboratory, Institute of Integrated Technology(IIT), <b><HTML G style="color:red;"></b><b>IST</b>
+  Human-Centered Intelligent System Laboratory, Institute of Integrated Technology(IIT), <b>GIST</b>
   - Investigate and Analyze NUI(Naturalistic User Interface)
   - Paper Review of Automotive UI Conference for NUI, Augmented Reality related to HCI
 
@@ -46,8 +46,8 @@ comments: false
   - Understood about Photo-acoustic Signal Generation
   
 * <b>Research Intern</b> / Jan ~ Feb 2018 (5 Week)
-  Autonomous Robotics and Control Laboratory, Information and Communication Engineering, <b><HTML DGIST style="color:blue;"></b>
-  - Investigate and Analyze NUI(Naturalistic User Interface)0
+  Autonomous Robotics and Control Laboratory, Information and Communication Engineering, <b>DGIST</b>
+  - Investigate and Analyze NUI(Naturalistic User Interface)
   - Paper Review of Automotive UI Conference for NUI, Augmented Reality related to HCI
 
 
