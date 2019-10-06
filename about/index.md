@@ -18,9 +18,38 @@ comments: false
 
 ## Education
 <pre>
-* <b>Bachelor degree</b> / Optical Engineering, Kumoh National Institute of Technology
-* <b>Master Candidate</b> / Information and Communication Engineering, DGIST
+* <b>Bachelor degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
+* <b>Master Candidate</b> / Information and Communication Engineering, DGIST (~ing)
 </pre>
+
+## Research Experience
+<pre>
+* <b>Research Intern</b> / Jun ~ Aug 2017 (2 Month)
+  Center of Space Optics, Korea Research Institute of Standards and Science (KRISS)
+  - Development of Ferro-fluid Deformable Mirror for Adaptive Optics
+
+* <b>Research Intern</b> / Jan 2018 (3 Week)
+  Ultrafast Nonlinear Optics Laboratory, Advanced Photonics Research Institute (APRI), <b><HTML G style="color:red;"></b><b>IST</b>
+  - Understood basic theories about Nonlinear Optics and Support experiment
+
+* <b>Research Intern</b> / Jan ~ Feb 2018 (3 Week)
+  Human-Centered Intelligent System Laboratory, Institute of Integrated Technology(IIT), <b><HTML G style="color:red;"></b><b>IST</b>
+  - Followed up leading research group about HCI(Human Computer Interaction)
+
+* <b>Research Intern</b> / Jul ~ Aug 2018 (6 Week)
+  Human-Centered Intelligent System Laboratory, Institute of Integrated Technology(IIT), <b><HTML G style="color:red;"></b><b>IST</b>
+  - Investigate and Analyze NUI(Naturalistic User Interface)
+  - Paper Review of Automotive UI Conference for NUI, Augmented Reality related to HCI
+
+* <b>Research Assistant</b> / Sep ~ Dec 2018 (4 Month)
+  Laser Laboratory, Department of Optical Engineering, Kumoh National Institute of Technology
+  - Understood about Photo-acoustic Signal Generation
+  
+* <b>Research Intern</b> / Jan ~ Feb 2018 (5 Week)
+  Autonomous Robotics and Control Laboratory, Information and Communication Engineering, <b><HTML DGIST style="color:blue;"></b>
+  - Investigate and Analyze NUI(Naturalistic User Interface)0
+  - Paper Review of Automotive UI Conference for NUI, Augmented Reality related to HCI
+
 
 ## Preview
 
