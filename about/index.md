@@ -20,7 +20,7 @@ comments: false
 
 ## Education
 <pre>
-* <b>Bachelor degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
+* <b>B.S (2019)</b> / Optical Engineering, Kumoh National Institute of Technology
 * <b>Master Candidate</b> / Information and Communication Engineering, DGIST (~ing)
 </pre>
 <hr>
@@ -53,7 +53,7 @@ comments: false
   Autonomous Robotics and Control Laboratory, Information and Communication Engineering, <b>DGIST</b>
   - Investigate and Analyze NUI(Naturalistic User Interface)
   - Paper Review of Automotive UI Conference for NUI, Augmented Reality related to HCI
-
+</pre>
 
 ## Preview
 
