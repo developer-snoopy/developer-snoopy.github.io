@@ -73,17 +73,30 @@ comments: false
 
 ## Ability of Programming
 <pre>
-* <b>MATLAB</b> - Moderate Level
+* <b>MATLAB - Moderate Level</b>
   -> Experience : Sensor Calibration with Matrix, Signal Processing, Controller GUI
-* <b>LABVIEW</b> - Moderate Level
-* <b>Python</b> - Advanced Level
+  
+* <b>LABVIEW - Moderate Level</b>
+
+* <b>Python - Advanced Level</b>
   -> Experience : Design IoT Systems, LiDAR measurement system, Machine Learing, etc.
-* <b>JAVA</b> - Basic Level
+  -> Complete the course
+     1) Samsung Electronics SW Education course『Python Programming』『IoT System Design』(2017)
+     2) IBM Cognitive Class (Online Lecture) 『Machine Learning with Python』(2018), 『Python for Data Science』(2019)
+  
+* <b>JAVA - Basic Level</b>
   -> Experience : Basic skills for Android Application Programming
-* <b>C++</b> - Basic Level
+  -> Complete the course
+     1) Samsung Electronics SW Education course 『Android App Programming』(2017)
+  
+* <b>C++ - Basic Level</b>
   -> Experience : Basic skills for 'OpenCV'
-* <b>R</b> - Moderate Level
+  -> Complete the course
+     1) Samsung Electronics SW Education course 『Understanding the Virtual Reality and the Real World』(2017)
+  
+* <b>R - Moderate Level</b>
   -> Experience : Data analysis for sensor(LiDAR) system
+  
 </pre>
 
 ## Preview
