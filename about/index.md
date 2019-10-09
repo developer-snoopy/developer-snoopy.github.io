@@ -20,7 +20,7 @@ comments: false
 
 ## Education
 <pre>
-* <b>B.S (2019)</b> / Optical Engineering, Kumoh National Institute of Technology
+* <b>Bachelor degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
 * <b>Master Candidate</b> / Information and Communication Engineering, DGIST (~ing)
 </pre>
 <hr>
