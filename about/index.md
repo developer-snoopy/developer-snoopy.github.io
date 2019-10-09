@@ -71,7 +71,7 @@ comments: false
 <hr>
 
 
-## Ability of Programming
+## Programming skill
 <pre>
 * <b>MATLAB - Moderate Level</b>
   -> Experience : Sensor Calibration with Matrix, Signal Processing, Controller GUI
