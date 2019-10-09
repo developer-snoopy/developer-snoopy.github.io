@@ -54,6 +54,7 @@ comments: false
   - Investigate and Analyze NUI(Naturalistic User Interface)
   - Paper Review of Automotive UI Conference for NUI, Augmented Reality related to HCI
 </pre>
+<hr>
 
 ## Award
 <pre>
@@ -66,8 +67,25 @@ comments: false
 * [Sep 2018] Won <b>Bronze prize</b> of Improving Creative Convergence Camp for Entrepreneur
              in Yeungnam University Hub Center for Engineering Education
 * [Dec 2018] KIT Talent Certification <b>"Outstanding Person"</b> in KIT
+</pre>
+<hr>
 
-</pre>             
+
+## Ability of Programming
+<pre>
+* <b>MATLAB</b> - Moderate Level
+  -> Experience : Sensor Calibration with Matrix, Signal Processing, Controller GUI
+* <b>LABVIEW</b> - Moderate Level
+* <b>Python</b> - Advanced Level
+  -> Experience : Design IoT Systems, LiDAR measurement system, Machine Learing, etc.
+* <b>JAVA</b> - Basic Level
+  -> Experience : Basic skills for Android Application Programming
+* <b>C++</b> - Basic Level
+  -> Experience : Basic skills for 'OpenCV'
+* <b>R</b> - Moderate Level
+  -> Experience : Data analysis for sensor(LiDAR) system
+</pre>
+
 ## Preview
 
 {% capture images %}
