@@ -59,13 +59,19 @@ comments: false
 ## Award
 <pre>
 * [Aug 2015] Won <b>participation prize</b> of 2015 KSAE (Baja/Formula/EV 2015) EV Free Production
+
 * [Jun 2017] Won <b>Grand prize</b> of IoT System Competition in KIT
+
 * [Dec 2017] Won <b>Grand prize</b> of Start-up Item Competition in KIT
+
 * [Jul 2018] Won <b>Best Engineering Awards</b> of International Capstone Design Project 
              in Yeungnam University Hub Center for Engineering Education
+             
 * [Aug 2018] Won <b>Bronze prize</b> of Create Start-up Camp for developing Start-up Idea in KIT
+
 * [Sep 2018] Won <b>Bronze prize</b> of Improving Creative Convergence Camp for Entrepreneur
              in Yeungnam University Hub Center for Engineering Education
+             
 * [Dec 2018] KIT Talent Certification <b>"Outstanding Person"</b> in KIT
 </pre>
 <hr>
