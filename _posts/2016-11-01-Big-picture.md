@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
+title:  "Start-up Team "Big Picture", developed 'New touch System'"
+date:   2016-11-01
+excerpt: "Suggest a new paradigm for touch system of electronic device"
 project: true
 tag:
 - jekyll 
