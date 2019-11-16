@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2016 Campus Patent Strategy Universiad Competition (CPU)"
-date: 2016-05
+date: 2016-05-25
 excerpt: "OLED (Organic Light Emitting Device)"
 tags: [Patent, challenge, IT]
 comments: true
