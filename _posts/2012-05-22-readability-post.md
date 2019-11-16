@@ -2,8 +2,8 @@
 layout: post
 title: "2016 Campus Patent Strategy Universiad Competition (CPU)"
 date: 2016-05
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+excerpt: "OLED (Organic Light Emitting Device)"
+tags: [Patent, challenge, IT]
 comments: true
 ---
 
