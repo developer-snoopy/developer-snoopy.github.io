@@ -22,7 +22,7 @@ comments: true
 <pre>
 * <b>B.S degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
 * <b>M.S Candidate</b> / Information and Communication Engineering, DGIST (~ing)
-* <b>Ph.D Candidate</b> / Artificial Intelligence Graduate School, GIST (will be 2021)
+* <b>Ph.D Candidate</b> / Artificial Intelligence Graduate School, GIST (in 2021~)
 </pre>
 <hr>
 
