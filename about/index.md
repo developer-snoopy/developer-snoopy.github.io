@@ -2,8 +2,8 @@
 layout: page
 title: About 'Filbert Kwon'
 tags: [about, Jekyll, theme, moon]
-date: 2019-10-05
-comments: false
+date: 2020-09-18
+comments: true
 ---
     
 <center>This is a <a href="http://developer-snoopy.github.io/"><b>Resume</b></a>. You can look around about me.</center>
@@ -20,8 +20,9 @@ comments: false
 
 ## Education
 <pre>
-* <b>Bachelor degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
-* <b>Master Candidate</b> / Information and Communication Engineering, DGIST (~ing)
+* <b>B.S degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
+* <b>M.S Candidate</b> / Information and Communication Engineering, DGIST (~ing)
+* <b>Ph.D Candidate</b> / Artificial Intelligence Graduate School, GIST (will be 2021)
 </pre>
 <hr>
 
@@ -143,6 +144,7 @@ comments: false
 </pre>
 <hr>
 
+/*
 ## Preview
 
 {% capture images %}
@@ -158,3 +160,4 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+*/
