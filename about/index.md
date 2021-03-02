@@ -10,9 +10,8 @@ comments: true
 
 ## Affilation
 <pre>
-* <b>DGIST Information and Communication Engineering</b>
-  Advanced Electronic Devices Research Group(AEDRG)
-  KWON Lab (Laser-Induced Nano Electronics Lab ; LINE Lab)
+* <b>Artificial Intelligence Graduate School at GIST</b>
+  Haptic Assistive Media Laboratory
 * Researcher in <b>UEL</b>(Unmanned Exploration Laboratory)
 </pre>
 <hr>
@@ -20,14 +19,16 @@ comments: true
 
 ## Education
 <pre>
-* <b>B.S degree</b> / Optical Engineering, Kumoh National Institute of Technology (2019)
-* <b>M.S Candidate</b> / Information and Communication Engineering, DGIST (~ing)
-* <b>Ph.D Candidate</b> / Artificial Intelligence Graduate School, GIST (in 2021~)
+* <b>B.S degree</b> / Optical Engineering, Kumoh National Institute of Technology (2015 ~ 2019)
+* <b>M.S Candidate</b> / Information and Communication Engineering, DGIST (2019 ~ 2021)
+  Master Thesis : Impact of laser annealing for CVD grown MoS2 thin film transistors in top gate structure
+  Advisor Prof. Hyukjun Kwon
+* <b>Ph.D Candidate</b> / Artificial Intelligence Graduate School, GIST (2021~)
 </pre>
 <hr>
 
 
-## Research Experience
+## Research Experience (Internship)
 <pre>
 * <b>Research Intern</b> / Jun ~ Aug 2017 (2 Month)
   Center of Space Optics, Korea Research Institute of Standards and Science(KRISS)
@@ -74,6 +75,18 @@ comments: true
              in Yeungnam University Hub Center for Engineering Education
              
 * [Dec 2018] KIT Talent Certification <b>"Outstanding Person"</b> in KIT
+
+* [Nov 2020] Won <b>Excellent Awards</b> of 2020 Aerospace Technology College Start-up Academy
+             in Korea Aerospace Research Institute
+</pre>
+<hr>
+
+## Patents
+<pre>
+* Method for generating defects of 2-dimensional material
+  Application number : KR10-2020-0029801
+  Applicants : Hyuk-Jun Kwon, Junil Kim, <u>Dong Jae Kwon</u>
+  Application date : March 20th 2020
 </pre>
 <hr>
 
@@ -140,24 +153,5 @@ comments: true
 * Participated in Create Start-up Camp for developing Start-up Idea in KIT (Aug 2018)
 
 * Participated in Entrepreneur Camp in Yeungnam University Hub Center for Engineering Education (Sep 2018)
-
 </pre>
 <hr>
-
-/*
-## Preview
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
-*/
