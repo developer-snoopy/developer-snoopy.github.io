@@ -20,9 +20,11 @@ comments: true
 ## Education
 <pre>
 * <b>B.S degree</b> / Optical Engineering, Kumoh National Institute of Technology (2015 ~ 2019)
+
 * <b>M.S Candidate</b> / Information and Communication Engineering, DGIST (2019 ~ 2021)
   Master Thesis : Impact of laser annealing for CVD grown MoS2 thin film transistors in top gate structure
   Advisor Prof. Hyukjun Kwon
+
 * <b>Ph.D Candidate</b> / Artificial Intelligence Graduate School, GIST (2021~)
 </pre>
 <hr>
