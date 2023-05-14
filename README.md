@@ -1,1 +1,0 @@
-# developer-snoopy.github.io
