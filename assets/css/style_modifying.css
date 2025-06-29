@@ -126,23 +126,6 @@
      color: #fff;
      text-decoration: none;
  }
-
- #header > .d-flex.flex-column {
-  display: flex;
-  flex-direction: column;
-  height: 50%;
-}
-
-/* 2) lang-switch 를 아래로 밀기 위한 margin 설정 */
-#header > .d-flex.flex-column .lang-switch {
-  margin-top: auto;     /* 위 요소들 위에 남은 공간을 모두 차지해 밑으로 밀어냄 */
-  margin-bottom: 20px;  /* 하단에서 20px 여유 */
-  /* text-align: center;
-  width: 100%; */
-  margin-left: 5%;       /* 왼쪽 여백 15% 확보 */
-  width: auto;            /* 콘텐츠 크기만큼 너비 확보 */
-  text-align: left;       /* 버튼 왼쪽 정렬 */
-}
  
  #main {
      margin-left: 300px;
@@ -238,7 +221,6 @@
  .mobile-nav-active #header {
      left: 0;
  }
-
  /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1106,27 +1088,23 @@
      }
  }
 
-
-/*--------------------------------------------------------------
-# Language-Switcher
---------------------------------------------------------------*/
-
-/* lang-switch 내부 링크 버튼: 더 은은한 디자인 */
-.lang-switch a {
-  display: inline-block;
-  padding: 6px 12px;
-  background-color: transparent;      /* 배경 없음으로 심플하게 */
-  color: #a8a9b4;                     /* 네비게이션 텍스트와 어울리는 은은한 회색 */
-  border: 1px solid #a8a9b4;         /* 연한 테두리로만 강조 */
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 400;                   /* 너무 두드러지지 않는 일반 굵기 */
-  text-transform: none;               /* 대문자 변환 없이 자연스러운 표기 */
-  transition: background-color .2s ease, color .2s ease;
+/* Sidebar Profile & Spacer */
+#navbar-profile {
+  margin-top: 15px;
+  text-align: center;
+}
+#navbar-spacer {
+  flex: 1;
 }
 
-/* 호버 시에도 눈에 크게 띄지 않도록 부드럽게 변화 */
-.lang-switch a:hover {
-  background-color: rgba(168, 169, 180, 0.2);  /* 연한 회색 반투명 배경 */
-  color: #ffffff;                              /* 살짝 밝아진 흰색 텍스트 */
+/* Publications & Awards 리스트 */
+.publication-list,
+.awards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.publication-list li,
+.awards-list li {
+  margin-bottom: 15px;
 }
