@@ -1670,142 +1670,144 @@ section,
   overflow-wrap: anywhere;
 }
 
-/* Publications 1-column layout */
-.resume .publication-card {
+/* Publications 2-column layout following Resume timeline design */
+.resume .publication-resume-item .pub-container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 1.5rem;
-  background: var(--surface-color, #ffffff);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
-  border-radius: 12px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  align-items: stretch;
+  gap: 1.25rem;
+  margin-top: 0.25rem;
 }
 
-.resume .publication-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 60%);
-}
-
-.resume .publication-thumb {
-  flex-shrink: 0;
-  width: 180px;
-  height: 125px;
-  border-radius: 8px;
+/* Image sized proportionally to text height */
+.resume .publication-resume-item .pub-thumb {
+  flex: 0 0 130px;
+  width: 130px;
+  align-self: stretch;
+  border-radius: 6px;
   overflow: hidden;
   background: color-mix(in srgb, var(--default-color), transparent 94%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.resume .publication-thumb img {
+.resume .publication-resume-item .pub-thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
   transition: transform 0.3s ease;
 }
 
-.resume .publication-card:hover .publication-thumb img {
+.resume .publication-resume-item:hover .pub-thumb img {
   transform: scale(1.04);
 }
 
-.resume .publication-info {
+.resume .publication-resume-item .pub-content {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   min-width: 0;
 }
 
-.resume .publication-info .pub-title {
+.resume .publication-resume-item .pub-title {
   font-size: 1.15rem;
   font-weight: 600;
   color: var(--heading-color);
-  margin-bottom: 0.4rem;
-  line-height: 1.45;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
 }
 
-.resume .publication-info .pub-title a {
+.resume .publication-resume-item .pub-title a {
   color: var(--heading-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.resume .publication-info .pub-title a:hover {
+.resume .publication-resume-item .pub-title a:hover {
   color: var(--accent-color);
 }
 
-.resume .publication-info .pub-authors {
+.resume .publication-resume-item .pub-authors {
   font-size: 0.92rem;
+  font-weight: 500;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   line-height: 1.5;
 }
 
-.resume .publication-info .pub-meta {
+.resume .publication-resume-item .pub-meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 0.75rem;
-  margin-top: 0.35rem;
+  margin-top: auto;
   font-size: 0.88rem;
 }
 
-.resume .publication-info .pub-venue {
+.resume .publication-resume-item .pub-venue {
+  font-size: 0.85rem;
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  padding: 0.25rem 0.6rem;
   font-weight: 600;
   color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  padding: 0.25rem 0.65rem;
   border-radius: 4px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
+  display: inline-block;
 }
 
-.resume .publication-info .pub-date {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+.resume .publication-resume-item .pub-date {
+  font-size: 0.85rem;
   font-weight: 500;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.resume .publication-links {
+.resume .publication-resume-item .pub-links {
+  margin-left: auto;
   display: inline-flex;
-  gap: 0.5rem;
+  gap: 0.75rem;
   align-items: center;
 }
 
-.resume .publication-links .btn-pub {
-  font-size: 0.8rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  border: 1px solid var(--accent-color);
+.resume .publication-resume-item .pub-links a {
+  font-weight: 700;
+  font-size: 0.88rem;
   color: var(--accent-color);
   text-decoration: none;
-  font-weight: 600;
-  transition: all 0.2s ease;
 }
 
-.resume .publication-links .btn-pub:hover {
-  background: var(--accent-color);
-  color: #ffffff;
+.resume .publication-resume-item .pub-links a:hover {
+  text-decoration: underline;
 }
 
+/* Mobile responsive layout: image moves below the text */
 @media (max-width: 767.98px) {
-  .resume .publication-card {
+  .resume .publication-resume-item .pub-container {
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.75rem;
   }
-  .resume .publication-thumb {
+
+  .resume .publication-resume-item .pub-content {
+    order: 1;
+  }
+
+  .resume .publication-resume-item .pub-thumb {
+    order: 2;
     width: 100%;
-    height: 160px;
+    max-width: 220px;
+    height: 130px;
+    align-self: flex-start;
+  }
+
+  .resume .publication-resume-item .pub-links {
+    margin-left: 0;
+    width: 100%;
   }
 }
+
+
 
 
 .resume .skill-item {
