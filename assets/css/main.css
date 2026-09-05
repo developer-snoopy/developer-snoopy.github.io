@@ -1611,14 +1611,14 @@ section,
   left: 0;
 }
 
-.resume .resume-imported-column > .resume-item {
+.resume .resume-imported-column .resume-item {
   position: relative;
   margin: 0 0 2rem 0.5rem;
   padding-left: 1.25rem;
   border-left: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
 }
 
-.resume .resume-imported-column > .resume-item::before {
+.resume .resume-imported-column .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -1630,14 +1630,14 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-.resume .resume-imported-column > .resume-item h4 {
+.resume .resume-imported-column .resume-item h4 {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--heading-color);
 }
 
-.resume .resume-imported-column > .resume-item h5 {
+.resume .resume-imported-column .resume-item h5 {
   font-size: 1rem;
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   padding: 0.375rem 0.75rem;
@@ -1648,7 +1648,7 @@ section,
   border-radius: 4px;
 }
 
-.resume .resume-imported-column > .resume-item h6 {
+.resume .resume-imported-column .resume-item h6 {
   font-size: 0.95rem;
   font-weight: 500;
   line-height: 1.6;
@@ -1656,17 +1656,17 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.resume .resume-imported-column > .resume-item p {
+.resume .resume-imported-column .resume-item p {
   line-height: 1.7;
   margin-bottom: 0.75rem;
 }
 
-.resume .resume-imported-column > .resume-item ul {
+.resume .resume-imported-column .resume-item ul {
   padding-left: 1.25rem;
   margin-bottom: 0.75rem;
 }
 
-.resume .resume-imported-column > .resume-item a {
+.resume .resume-imported-column .resume-item a {
   overflow-wrap: anywhere;
 }
 
