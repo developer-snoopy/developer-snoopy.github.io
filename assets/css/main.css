@@ -1670,142 +1670,184 @@ section,
   overflow-wrap: anywhere;
 }
 
-/* Publications 2-column layout following Resume timeline design */
-.resume .publication-resume-item .pub-container {
+/* ==============================================================
+# Publications Card Layout (Research Achievements Style)
+============================================================== */
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pub-card {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  gap: 1.25rem;
-  margin-top: 0.25rem;
+  background: color-mix(in srgb, var(--surface-color), #000 15%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Image sized proportionally to text height */
-.resume .publication-resume-item .pub-thumb {
-  flex: 0 0 130px;
-  width: 130px;
-  align-self: stretch;
-  border-radius: 6px;
+.pub-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+}
+
+/* Left side: Thumbnail image matches right text height */
+.pub-card .pub-media {
+  flex: 0 0 280px;
+  width: 280px;
+  min-height: 100%;
+  position: relative;
   overflow: hidden;
-  background: color-mix(in srgb, var(--default-color), transparent 94%);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  background: #080f14;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.resume .publication-resume-item .pub-thumb img {
+.pub-card .pub-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
-.resume .publication-resume-item:hover .pub-thumb img {
+.pub-card:hover .pub-media img {
   transform: scale(1.04);
 }
 
-.resume .publication-resume-item .pub-content {
+/* Right side: Publication details */
+.pub-card .pub-body {
   flex: 1 1 auto;
+  padding: 1.25rem 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   min-width: 0;
 }
 
-.resume .publication-resume-item .pub-title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: var(--heading-color);
-  margin-bottom: 0.25rem;
-  line-height: 1.4;
+.pub-card .pub-header-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
 }
 
-.resume .publication-resume-item .pub-title a {
+.pub-card .pub-tag {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.pub-card .pub-venue-badge {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: color-mix(in srgb, var(--default-color), transparent 35%);
+}
+
+.pub-card .pub-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--heading-color);
+  margin: 0 0 0.45rem 0;
+}
+
+.pub-card .pub-title a {
   color: var(--heading-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.resume .publication-resume-item .pub-title a:hover {
+.pub-card .pub-title a:hover {
   color: var(--accent-color);
 }
 
-.resume .publication-resume-item .pub-authors {
+.pub-card .pub-authors {
   font-size: 0.92rem;
-  font-weight: 500;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 0.4rem;
   line-height: 1.5;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin: 0 0 0.35rem 0;
 }
 
-.resume .publication-resume-item .pub-meta {
+.pub-card .pub-authors strong {
+  color: var(--heading-color);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pub-card .pub-venue-desc {
+  font-size: 0.85rem;
+  color: color-mix(in srgb, var(--default-color), transparent 45%);
+  margin: 0 0 0.85rem 0;
+  font-style: normal;
+}
+
+/* Action chips / buttons */
+.pub-card .pub-actions {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.5rem;
   align-items: center;
-  gap: 0.75rem;
   margin-top: auto;
-  font-size: 0.88rem;
 }
 
-.resume .publication-resume-item .pub-venue {
-  font-size: 0.85rem;
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  padding: 0.25rem 0.6rem;
-  font-weight: 600;
-  color: var(--accent-color);
-  border-radius: 4px;
-  display: inline-block;
-}
-
-.resume .publication-resume-item .pub-date {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-.resume .publication-resume-item .pub-links {
-  margin-left: auto;
+.pub-card .pub-chip {
   display: inline-flex;
-  gap: 0.75rem;
   align-items: center;
-}
-
-.resume .publication-resume-item .pub-links a {
-  font-weight: 700;
-  font-size: 0.88rem;
-  color: var(--accent-color);
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: color-mix(in srgb, var(--default-color), transparent 15%);
+  background: color-mix(in srgb, var(--default-color), transparent 94%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-radius: 6px;
+  padding: 0.3rem 0.65rem;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
-.resume .publication-resume-item .pub-links a:hover {
-  text-decoration: underline;
+.pub-card .pub-chip:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-color: var(--accent-color);
+  color: #ffffff;
+  transform: translateY(-1px);
 }
 
-/* Mobile responsive layout: image moves below the text */
+.pub-card .pub-chip i {
+  font-size: 0.85rem;
+}
+
+/* Responsive: Mobile view moves image to bottom */
 @media (max-width: 767.98px) {
-  .resume .publication-resume-item .pub-container {
+  .pub-card {
     flex-direction: column;
-    gap: 0.75rem;
   }
 
-  .resume .publication-resume-item .pub-content {
+  .pub-card .pub-body {
     order: 1;
+    padding: 1.25rem;
   }
 
-  .resume .publication-resume-item .pub-thumb {
+  .pub-card .pub-media {
     order: 2;
     width: 100%;
-    max-width: 220px;
-    height: 130px;
-    align-self: flex-start;
-  }
-
-  .resume .publication-resume-item .pub-links {
-    margin-left: 0;
-    width: 100%;
+    height: 180px;
+    flex: none;
   }
 }
+
 
 
 
