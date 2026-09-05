@@ -1611,12 +1611,18 @@ section,
   left: 0;
 }
 
+.resume .resume-section-spacing {
+  margin-top: 5rem !important;
+  padding-top: 2.25rem;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
 .resume .resume-item,
 .resume .resume-imported-column .resume-item,
 .resume .resume-imported-column > .resume-item {
   position: relative;
-  margin: 0 0 2rem 0.5rem;
-  padding-left: 1.25rem;
+  margin: 0 0 2.5rem 0.5rem;
+  padding-left: 1.5rem;
   border-left: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
 }
 
@@ -1692,8 +1698,8 @@ section,
 .publications-list {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  gap: 2.25rem;
+  margin-top: 1.5rem;
 }
 
 .pub-card {
@@ -1701,11 +1707,11 @@ section,
   flex-direction: row;
   align-items: stretch;
   background: color-mix(in srgb, var(--surface-color), #000 15%);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   border-radius: 12px;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.16);
 }
 
 .pub-card:hover {
