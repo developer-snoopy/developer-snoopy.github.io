@@ -1816,39 +1816,120 @@ section,
   font-style: normal;
 }
 
-/* Action chips / buttons */
+/* Action buttons */
 .pub-card .pub-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.75rem;
   align-items: center;
   margin-top: auto;
+  padding-top: 0.6rem;
 }
 
+/* Base button style (High contrast pill button) */
 .pub-card .pub-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: color-mix(in srgb, var(--default-color), transparent 15%);
-  background: color-mix(in srgb, var(--default-color), transparent 94%);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-radius: 6px;
-  padding: 0.3rem 0.65rem;
+  gap: 0.45rem;
+  font-family: var(--default-font);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.45rem 1.05rem;
+  border-radius: 50px;
   text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.pub-card .pub-chip:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 85%);
-  border-color: var(--accent-color);
-  color: #ffffff;
-  transform: translateY(-1px);
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--surface-color), #ffffff 12%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .pub-card .pub-chip i {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.pub-card .pub-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.pub-card .pub-chip:hover i {
+  transform: scale(1.1);
+}
+
+/* Primary Action: Paper Button */
+.pub-card .pub-chip.pub-chip-primary,
+.pub-card .pub-chip:has(.bi-file-earmark-pdf),
+.pub-card .pub-chip:has(.bi-file-earmark-text) {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #ffffff;
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--accent-color), transparent 65%);
+}
+
+.pub-card .pub-chip.pub-chip-primary:hover,
+.pub-card .pub-chip:has(.bi-file-earmark-pdf):hover,
+.pub-card .pub-chip:has(.bi-file-earmark-text):hover {
+  background: color-mix(in srgb, var(--accent-color), #000 15%);
+  border-color: color-mix(in srgb, var(--accent-color), #000 15%);
+  color: #ffffff;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--accent-color), transparent 45%);
+}
+
+/* Video Preview Button */
+.pub-card .pub-chip.pub-chip-video,
+.pub-card .pub-chip:has(.bi-play-circle) {
+  background: color-mix(in srgb, var(--surface-color), #ffffff 10%);
+  border-color: color-mix(in srgb, #ff4b4b, transparent 45%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.pub-card .pub-chip.pub-chip-video i,
+.pub-card .pub-chip:has(.bi-play-circle) i {
+  color: #ff5252;
+}
+
+.pub-card .pub-chip.pub-chip-video:hover,
+.pub-card .pub-chip:has(.bi-play-circle):hover {
+  background: #e62117;
+  border-color: #e62117;
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(230, 33, 23, 0.45);
+}
+
+.pub-card .pub-chip.pub-chip-video:hover i,
+.pub-card .pub-chip:has(.bi-play-circle):hover i {
+  color: #ffffff;
+}
+
+/* Website / Organization Link Button */
+.pub-card .pub-chip.pub-chip-link,
+.pub-card .pub-chip:has(.bi-globe) {
+  background: color-mix(in srgb, var(--surface-color), #ffffff 10%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 45%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.pub-card .pub-chip.pub-chip-link i,
+.pub-card .pub-chip:has(.bi-globe) i {
+  color: var(--accent-color);
+}
+
+.pub-card .pub-chip.pub-chip-link:hover,
+.pub-card .pub-chip:has(.bi-globe):hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #ffffff;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--accent-color), transparent 45%);
+}
+
+.pub-card .pub-chip.pub-chip-link:hover i,
+.pub-card .pub-chip:has(.bi-globe):hover i {
+  color: #ffffff;
 }
 
 /* Responsive: Mobile view moves image to bottom */
