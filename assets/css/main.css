@@ -2933,6 +2933,9 @@ section,
 }
 
 .portfolio .portfolio-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   background-color: var(--surface-color);
   border-radius: 10px;
   overflow: hidden;
@@ -2956,12 +2959,15 @@ section,
 
 .portfolio .portfolio-card .portfolio-img {
   position: relative;
+  flex-shrink: 0;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
 }
 
 .portfolio .portfolio-card .portfolio-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
@@ -2999,6 +3005,9 @@ section,
 }
 
 .portfolio .portfolio-card .portfolio-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -3019,6 +3028,7 @@ section,
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-top: auto;
 }
 
 .portfolio .portfolio-card .portfolio-info .portfolio-tags span {
