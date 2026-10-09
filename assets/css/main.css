@@ -1951,6 +1951,22 @@ section,
   }
 }
 
+/* Conference thumbnails keep their original 16:9 frame without cropping. */
+.conference-list .pub-card .pub-media {
+  min-height: 0;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  align-self: center;
+}
+
+.conference-list .pub-card .pub-media img {
+  object-fit: contain;
+}
+
+.conference-list .pub-card:hover .pub-media img {
+  transform: none;
+}
+
 
 
 
