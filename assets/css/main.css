@@ -1692,6 +1692,81 @@ section,
   overflow-wrap: anywhere;
 }
 
+.resume .resume-detail-toggles {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.resume .resume-detail-toggle {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 68%);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface-color), var(--accent-color) 4%);
+}
+
+.resume .resume-detail-toggle summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.9rem;
+  color: var(--heading-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  list-style: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.resume .resume-detail-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.resume .resume-detail-toggle summary:hover {
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+}
+
+.resume .resume-detail-toggle summary:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: -2px;
+}
+
+.resume .resume-detail-toggle .resume-toggle-icon {
+  flex: 0 0 auto;
+  color: var(--accent-color);
+  transition: transform 0.2s ease;
+}
+
+.resume .resume-detail-toggle[open] .resume-toggle-icon {
+  transform: rotate(180deg);
+}
+
+.resume .resume-toggle-content {
+  padding: 0.8rem 1rem 0.95rem;
+  border-top: 1px solid color-mix(in srgb, var(--accent-color), transparent 82%);
+}
+
+.resume .resume-toggle-content > :last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume-toggle-content ol,
+.resume .resume-toggle-content ul {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.resume .resume-toggle-content li + li {
+  margin-top: 0.4rem;
+}
+
+.resume .resume-toggle-content li > ul {
+  margin-top: 0.35rem;
+}
+
 /* ==============================================================
 # Publications Card Layout (Research Achievements Style)
 ============================================================== */
