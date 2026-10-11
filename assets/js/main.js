@@ -170,6 +170,7 @@
     let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
     let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
     let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+    let sortAscending = isotopeItem.getAttribute('data-sort-ascending') !== 'false';
     const isotopeContainer = isotopeItem.querySelector('.isotope-container');
 
     let initIsotope;
@@ -209,7 +210,11 @@
         itemSelector: '.isotope-item',
         layoutMode: layout,
         filter: filter,
-        sortBy: sort
+        getSortData: {
+          date: '[data-date] parseInt'
+        },
+        sortBy: sort,
+        sortAscending: sortAscending
       });
     });
 
